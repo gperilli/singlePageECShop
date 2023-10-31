@@ -176,6 +176,10 @@
   justify-content: end;
 }
 
+.fa-chevron-circle-up, .fa-chevron-circle-down, .fa-trash  {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 991px) {
   .shopping-cart-modal-inner {
     display: block;

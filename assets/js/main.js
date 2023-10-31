@@ -113,9 +113,9 @@ function addToCart(event) {
             <!-- checkout item quantity -->
             <div class="cart-item-quantity-container">
               <h4 class="cart-item-quantity">
-              <i class="fas fa-chevron-circle-up orange-text" onclick="incrementCartItem('${currentShoppingCart[event.currentTarget.dataset.product].name}')"></i>
+              <i class="fa fa-chevron-circle-up orange-text" onclick="incrementCartItem('${currentShoppingCart[event.currentTarget.dataset.product].name}')"></i>
               <span class="white-text" id="${currentShoppingCart[event.currentTarget.dataset.product].nameConcat}-quantity">1</span>
-              <i class="fas fa-chevron-circle-down orange-text" onclick="decrementCartItem('${currentShoppingCart[event.currentTarget.dataset.product].name}')"></i></h4>
+              <i class="fa fa-chevron-circle-down orange-text" onclick="decrementCartItem('${currentShoppingCart[event.currentTarget.dataset.product].name}')"></i></h4>
             </div>
 
             <!-- checkout item price -->
@@ -126,7 +126,7 @@ function addToCart(event) {
 
           <!-- trash -->
           <div class="cart-item-trash-container">
-            <h4 class="cart-item-trash"><i class="fas fa-trash orange-text" onclick="removeCartItem('${currentShoppingCart[event.currentTarget.dataset.product].name}')"></i></h4>
+            <h4 class="cart-item-trash"><i class="fa fa-trash orange-text" onclick="removeCartItem('${currentShoppingCart[event.currentTarget.dataset.product].name}')"></i></h4>
           </div>
         </div>
       </div>
