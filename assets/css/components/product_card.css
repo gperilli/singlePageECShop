@@ -71,6 +71,7 @@ button.cart-btn {
   padding: 10px 20px;
   border: 1px solid white;
   float: right;
+  cursor: pointer;
 }
 
 button.cart-btn {
