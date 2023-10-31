@@ -61,20 +61,6 @@
   overflow-y: scroll;
 }
 
-.checkout-items::-webkit-scrollbar {
-  width: 8px;
-}
-
-.checkout-items::-webkit-scrollbar-thumb {
-  background-color: orange;
-}
-
-/* For Firefox */
-.checkout-items * {
-  scrollbar-color: orange;
-  scrollbar-width: thin;
-}
-
 .cart-item {
   width: 100%;
   height: 100px;
