@@ -87,7 +87,6 @@ html, body {
   margin: 0 auto;
   margin-right: 0;
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 15px #2d2d2d;
   box-shadow: 0 0 15px #2d2d2d;
   position: absolute;
   right: 30px;

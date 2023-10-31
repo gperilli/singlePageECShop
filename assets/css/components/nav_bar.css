@@ -27,8 +27,6 @@
 }
 
 .page-column-mobile-header {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   background-color: transparent;
   padding: 15px 0;
@@ -68,8 +66,6 @@
 }
 
 .top-and-left-nav-bar {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   background-color: transparent;
   padding: 15px 0;
@@ -146,14 +142,10 @@ nav.main-menu li:hover > a {
 }
 
 nav.main-menu li a {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 .top-and-left-nav-bar .header-icons a {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -221,12 +213,9 @@ nav.main-menu ul {
   left: 0;
   top: 50px;
   border-radius: 3px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   opacity: 0;
   visibility: hidden;
-  -webkit-box-shadow: 0 0 20px #555555;
   box-shadow: 0 0 20px #555555;
 }
 
@@ -262,7 +251,6 @@ nav > .nav--menu > .nav--item > button {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.0.3s ease-in-out;
   transition: all 0.0.3s ease-in-out;
   background-color: #fff;
 }

@@ -178,8 +178,6 @@ a.boxed-btn, a.bordered-btn, button.cart-btn {
 ----------------------------------------------------------------------------- */
 
 a.boxed-btn {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -189,8 +187,6 @@ a.boxed-btn:hover {
 }
 
 a.bordered-btn {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -205,8 +201,6 @@ li:hover a {
 }
 
 a.video-play-btn {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -216,14 +210,10 @@ a.video-play-btn:hover {
 }
 
 .latest-news-bg {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 input[type="submit"] {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   border-radius: 50px !important;
 }
@@ -234,8 +224,6 @@ input[type="submit"]:hover {
 }
 
 .icons a i {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -244,30 +232,22 @@ input[type="submit"]:hover {
 }
 
 .single-pricing-table {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 .single-pricing-table:hover {
-  -webkit-box-shadow: 0 0 20px #ddd;
   box-shadow: 0 0 20px #ddd;
 }
 
 .product-image img {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 .product-image img:hover {
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
 .recent-posts ul li {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -276,8 +256,6 @@ input[type="submit"]:hover {
 }
 
 ul.sub-menu li a {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -286,8 +264,6 @@ ul.sub-menu li:hover a {
 }
 
 ul.product-share li a {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -296,8 +272,6 @@ ul.product-share li:hover a {
 }
 
 .service-menu ul li a {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -311,8 +285,6 @@ ul.product-share li:hover a {
 }
 
 span.close-btn {
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
