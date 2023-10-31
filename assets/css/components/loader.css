@@ -40,7 +40,7 @@
     position: absolute;
     top: calc(50% - 3vmax);
     left: calc(50% - 3vmax);
-    border-left: 3px solid var(--tsuaqua-brand-color-primary);
+    border-left: 3px solid var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
     border-radius: 100%;
     -webkit-animation: spinLeft 800ms linear infinite;
     animation: spinLeft 800ms linear infinite;
@@ -54,7 +54,7 @@
     position: absolute;
     top: calc(50% - 3vmax);
     left: calc(50% - 3vmax);
-    border-left: 3px solid var(--tsuaqua-brand-color-primary);
+    border-left: 3px solid var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
     border-radius: 100%;
     -webkit-animation: spinLeft 800ms linear infinite;
     animation: spinLeft 800ms linear infinite;

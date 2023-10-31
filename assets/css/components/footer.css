@@ -34,7 +34,7 @@
     bottom: 0;
     width: 20px;
     height: 2px;
-    background-color: var(--tsuaqua-brand-color-primary);
+    background-color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
     content: "";
   }
 
@@ -74,7 +74,7 @@
     width: 20%;
     border: none;
     background-color: #012738;
-    color: var(--tsuaqua-brand-color-primary);
+    color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
     padding: 14px 0;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -99,7 +99,7 @@
   }
 
   .copyright a {
-    color: var(--tsuaqua-brand-color-primary);
+    color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
     font-weight: 700;
   }
 
@@ -124,7 +124,7 @@
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: var(--tsuaqua-brand-color-primary);
+    color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
   }
 
   .footer-box.pages ul li a {
@@ -134,7 +134,7 @@
   }
 
   .footer-box.pages ul li:hover a {
-    color: var(--tsuaqua-brand-color-primary);
+    color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
   }
 
   .footer-box.subscribe form button {
@@ -144,6 +144,6 @@
   }
 
   .footer-box.subscribe form button:hover {
-    background-color: var(--tsuaqua-brand-color-primary);
+    background-color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
     color: var(--tsuaqua-background-dark);
   }

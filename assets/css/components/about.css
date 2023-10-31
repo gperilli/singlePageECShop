@@ -1,6 +1,6 @@
 a.video-play-btn {
     position: absolute;
-    background-color: var(--tsuaqua-brand-color-primary);
+    background-color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
     color: var(--tsuaqua-background-dark);
     width: 90px;
     height: 90px;

@@ -138,11 +138,11 @@ nav.main-menu ul li a {
 }
 
 nav.main-menu ul li.current-list-item > a {
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 nav.main-menu li:hover > a {
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 nav.main-menu li a {
@@ -158,7 +158,7 @@ nav.main-menu li a {
 }
 
 .top-and-left-nav-bar .header-icons a:hover {
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 .sticky-wrapper {
@@ -438,7 +438,7 @@ a.nav--link {
     font-size: 16px;
     padding: 0px 20px;
     position: relative;
-    color: var(--tsuaqua-brand-color-primary);
+    color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
     text-decoration: none;
     text-align: left;
     width: 100%;

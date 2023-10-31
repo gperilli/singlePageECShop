@@ -80,7 +80,7 @@ body img {
 a.boxed-btn {
   font-family: 'Poppins', sans-serif;
   display: inline-block;
-  background-color: var(--tsuaqua-brand-color-primary);
+  background-color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
   color: #fff;
   padding: 10px 20px;
 }
@@ -89,7 +89,7 @@ a.bordered-btn {
   font-family: 'Poppins', sans-serif;
   display: inline-block;
   color: #fff;
-  border: 2px solid var(--tsuaqua-brand-color-primary);
+  border: 2px solid var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
   padding: 7px 20px;
 }
 
@@ -111,7 +111,7 @@ a.boxed-btn, a.bordered-btn, button.cart-btn {
   bottom: 0px;
   width: 50px;
   height: 2px;
-  background-color: var(--tsuaqua-brand-color-primary);
+  background-color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
   margin: 0;
 }
 
@@ -133,7 +133,7 @@ a.boxed-btn, a.bordered-btn, button.cart-btn {
 }
 
 .breadcrumb-text p {
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -185,7 +185,7 @@ a.boxed-btn {
 
 a.boxed-btn:hover {
   background-color: var(--tsuaqua-background-dark);
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 a.bordered-btn {
@@ -195,13 +195,13 @@ a.bordered-btn {
 }
 
 a.bordered-btn:hover {
-  background-color: var(--tsuaqua-brand-color-primary);
+  background-color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
   color: #fff;
 }
 
 
 li:hover a {
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 a.video-play-btn {
@@ -212,7 +212,7 @@ a.video-play-btn {
 
 a.video-play-btn:hover {
   background-color: #333;
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 .latest-news-bg {
@@ -230,7 +230,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: var(--tsuaqua-background-dark);
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 .icons a i {
@@ -240,7 +240,7 @@ input[type="submit"]:hover {
 }
 
 .icons a:hover i {
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 .single-pricing-table {
@@ -282,7 +282,7 @@ ul.sub-menu li a {
 }
 
 ul.sub-menu li:hover a {
-  color: var(--tsuaqua-brand-color-primary) !important;
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1)) !important;
 }
 
 ul.product-share li a {
@@ -292,7 +292,7 @@ ul.product-share li a {
 }
 
 ul.product-share li:hover a {
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 .service-menu ul li a {

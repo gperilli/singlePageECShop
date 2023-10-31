@@ -7,7 +7,7 @@ a {
 }
 
 a:hover {
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
   text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ p:last-child {
 }
 
 .orange-text {
-  color: var(--tsuaqua-brand-color-primary);
+  color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
 }
 
 .white-text {
