@@ -1,0 +1,317 @@
+/*
+Adapted by: Gareth Perilli, 2023, from Fruitkha Template (Imran Hossain, https://imransdesign.com/)  - Responsive Bootstrap4 Shop Template
+*/
+
+/* Components */
+@import "components/typography.css?v=1.0";
+@import "components/loader.css?v=1.0";
+@import "components/nav_bar.css?v=1.0";
+@import "components/hero.css?v=1.0";
+@import "components/services.css?v=1.0";
+@import "components/product_card.css?v=1.0";
+@import "components/about.css?v=1.0";
+@import "components/footer.css?v=1.0";
+@import "components/shopping_cart.css?v=1.0";
+
+:root {
+  --tsuaqua-brand-color-primary: rgba(150, 150, 150, 1);
+  --tsuaqua-background-dark: rgba(50, 50, 50, 1);
+  --tsuaqua-background-dark2: rgba(75, 75, 75, 1);
+}
+
+html {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+  line-height: 1.8;
+  background: transparent;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+body img {
+  max-width: 100vw;
+}
+
+/* -----------------------------------------------------------------------------
+# All Common Styles
+----------------------------------------------------------------------------- */
+
+.mb-150 {
+  margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 767.96px) {
+  .mb-150 {
+    margin-bottom: 100px;
+  }
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 767.96px) {
+  .pt-80 {
+    padding-top: 50px;
+  }
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 767.96px) {
+  .pb-80 {
+    padding-bottom: 50px;
+  }
+}
+
+a.boxed-btn {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background-color: var(--tsuaqua-brand-color-primary);
+  color: #fff;
+  padding: 10px 20px;
+}
+
+a.bordered-btn {
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  color: #fff;
+  border: 2px solid var(--tsuaqua-brand-color-primary);
+  padding: 7px 20px;
+}
+
+a.boxed-btn, a.bordered-btn, button.cart-btn {
+  border-radius: 50px;
+}
+
+.section-title h3 {
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-title h3:after {
+  position: absolute;
+  content: '';
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 50px;
+  height: 2px;
+  background-color: var(--tsuaqua-brand-color-primary);
+  margin: 0;
+}
+
+.section-title p {
+  font-size: 15px;
+  width: 530px;
+  margin: 0;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.8;
+}
+
+.section-title {
+  margin-bottom: 80px;
+}
+
+.breadcrumb-bg {
+  background-image: url(../img/breadcrumb-bg.jpg);
+}
+
+.breadcrumb-text p {
+  color: var(--tsuaqua-brand-color-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.breadcrumb-text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.breadcrumb-section {
+  padding: 150px 0;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+  padding-top: 200px;
+}
+
+.breadcrumb-section:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #07212e;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+/* -----------------------------------------------------------------------------
+# Hover Styles
+----------------------------------------------------------------------------- */
+
+a.boxed-btn {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a.boxed-btn:hover {
+  background-color: var(--tsuaqua-background-dark);
+  color: var(--tsuaqua-brand-color-primary);
+}
+
+a.bordered-btn {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a.bordered-btn:hover {
+  background-color: var(--tsuaqua-brand-color-primary);
+  color: #fff;
+}
+
+
+li:hover a {
+  color: var(--tsuaqua-brand-color-primary);
+}
+
+a.video-play-btn {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a.video-play-btn:hover {
+  background-color: #333;
+  color: var(--tsuaqua-brand-color-primary);
+}
+
+.latest-news-bg {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+input[type="submit"] {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 50px !important;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--tsuaqua-background-dark);
+  color: var(--tsuaqua-brand-color-primary);
+}
+
+.icons a i {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.icons a:hover i {
+  color: var(--tsuaqua-brand-color-primary);
+}
+
+.single-pricing-table {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.single-pricing-table:hover {
+  -webkit-box-shadow: 0 0 20px #ddd;
+  box-shadow: 0 0 20px #ddd;
+}
+
+.product-image img {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.product-image img:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.recent-posts ul li {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.recent-posts ul li:hover {
+  opacity: 0.7;
+}
+
+ul.sub-menu li a {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+ul.sub-menu li:hover a {
+  color: var(--tsuaqua-brand-color-primary) !important;
+}
+
+ul.product-share li a {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+ul.product-share li:hover a {
+  color: var(--tsuaqua-brand-color-primary);
+}
+
+.service-menu ul li a {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.service-menu ul li a.active {
+  font-weight: 600;
+  color: #ffe200;
+}
+
+.service-menu ul li a:hover {
+  color: #ffe200;
+}
+
+span.close-btn {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+span.close-btn:hover {
+  color: #fff;
+}

@@ -1,0 +1,189 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+  ul.main-menu li a {
+    padding: 15px 13px;
+  }
+
+  span.close-btn {
+    right: 0;
+  }
+
+  ul.sub-menu li a {
+    padding: 7px 10px;
+  }
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .hero-text h1 {
+    font-size: 40px;
+  }
+
+  .footer-box {
+    margin-bottom: 40px;
+  }
+
+  .copyright p {
+    text-align: center;
+  }
+
+  .hero-area div.hero-form {
+    width: 325px;
+    top: 30%;
+  }
+
+  .single-project-img img {
+    width: 100%;
+  }
+
+  .mean-container .mean-bar {
+    z-index: 2;
+  }
+
+  .featured-section {
+    padding: 0;
+  }
+
+  .hero-text-tablecell {
+    padding: 0px 70px;
+  }
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+  span.close-btn {
+    right: 35px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p.subtitle {
+    font-size: 13px;
+  }
+
+  .section-title p {
+    max-width: 400px;
+  }
+
+  .section-title h3 {
+    font-size: 25px;
+  }
+
+  p.testimonial-body {
+    font-size: 15px;
+  }
+
+  .responsive-menu {
+    left: auto;
+    right: 0;
+  }
+
+  .featured-section {
+    padding: 0;
+  }
+
+  a.video-play-btn {
+    right: auto;
+    left: 50%;
+    margin-left: -45px;
+  }
+
+  .footer-box {
+    margin-bottom: 50px;
+  }
+
+  .copyright p {
+    text-align: center;
+  }
+
+  .footer-area {
+    padding: 80px 0;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .breadcrumb-text h1 {
+    font-size: 30px;
+  }
+
+  .text-block {
+    margin-bottom: 50px;
+  }
+
+  .team-bg {
+    height: 450px;
+  }
+
+  .total-section {
+    margin-top: 30px;
+  }
+
+  .product-image {
+    padding: 0px, 30px, 30px, 30px;
+    padding-bottom: 0;
+  }
+
+  .display-hidden {
+    display: none;
+  }
+
+  .hero-area div.hero-form {
+    right: 0;
+  }
+
+  .hero-btns a.boxed-btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hero-btns {
+    text-align: center;
+  }
+
+  .hero-btns a.bordered-btn {
+    margin-left: 0;
+    margin-top: 15px;
+    display: block;
+  }
+
+  .hero-area div.hero-form {
+    width: auto;
+  }
+
+  .section-title p {
+    max-width: 285px;
+  }
+
+  .hero-area div.hero-form {
+    top: 0;
+  }
+
+
+  .section-title {
+    margin-bottom: 50px;
+  }
+
+  .copyright p {
+    padding-bottom: 0;
+  }
+
+  .main-menu {
+    display: none;
+  }
+
+  h2.widget-title {
+    font-size: 20px;
+  }
+
+}

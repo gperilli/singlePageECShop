@@ -1,0 +1,133 @@
+a {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--tsuaqua-brand-color-primary);
+  text-decoration: none;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 0 0 1.25rem 0;
+  color: var(--tsuaqua-background-dark);
+}
+
+h1:last-child, .h1:last-child,
+h2:last-child, .h2:last-child,
+h3:last-child, .h3:last-child,
+h4:last-child, .h4:last-child,
+h5:last-child, .h5:last-child,
+h6:last-child, .h6:last-child {
+  margin: 0;
+}
+
+h1, .h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+@media only screen and (max-width: 767.96px) {
+  h1, .h1 {
+    font-size: 3rem;
+    line-height: 3.25rem;
+  }
+}
+
+@media only screen and (max-width: 575.96px) {
+  h1, .h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+}
+
+h2, .h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+}
+
+@media only screen and (max-width: 767.96px) {
+  h2, .h2 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+  }
+}
+
+@media only screen and (max-width: 575.96px) {
+  h2, .h2 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+}
+
+h3, .h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+@media only screen and (max-width: 575.96px) {
+  h3, .h3 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+@media only screen and (max-width: 575.96px) {
+  h4, .h4 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.1px;
+  line-height: 1.8;
+  color: var(--tsuaqua-background-dark);
+  margin: 0 0 1.25rem 0;
+}
+
+p:last-child {
+  margin: 0;
+}
+
+.orange-text {
+  color: var(--tsuaqua-brand-color-primary);
+}
+
+.white-text {
+  color: #fff !important;
+}
