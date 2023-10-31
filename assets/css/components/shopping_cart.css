@@ -169,7 +169,7 @@
     position: fixed;
     width: 60vw;
     height: 100vh;
-    background: var(--tsuaqua-background-dark2);
+    background: var(--tsuaqua-background-dark2, rgba(75, 75, 75, 1));
     padding: 30px 20px 20px 20px;
   }
 
@@ -244,7 +244,7 @@
     position: fixed;
     width: 80vw;
     height: 100vh;
-    background: var(--tsuaqua-background-dark2);
+    background: var(--tsuaqua-background-dark2, rgba(75, 75, 75, 1));
     padding: 30px 20px 20px 20px;
   }
 
