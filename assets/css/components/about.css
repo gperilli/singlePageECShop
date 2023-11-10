@@ -1,6 +1,6 @@
 a.video-play-btn {
     position: absolute;
-    background-color: var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
+    background-color: var(--tsuaqua-brand-color-primary);
     color: var(--tsuaqua-background-dark);
     width: 90px;
     height: 90px;
@@ -13,6 +13,7 @@ a.video-play-btn {
     z-index: 2;
     top: 50%;
     margin-top: -45px;
+    -webkit-box-shadow: 0 0 20px #adadad;
     box-shadow: 0 0 20px #adadad;
     left: 50%;
     margin-left: -45px;
@@ -42,8 +43,32 @@ a.video-play-btn {
     opacity: 0.3;
   }
 
+  .abt-bg-mockup {
+    background-image: url(../../img/about-image-mockup.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .abt-bg-mockup:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: var(--tsuaqua-background-dark);
+    opacity: 0.3;
+  }
+
   .abt-section .abt-text {
-    padding: 0px 0px 50px 50px;
+    padding: 0px, 0px, 50px, 50px;
     padding-left: 30px;
   }
 

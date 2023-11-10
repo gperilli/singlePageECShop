@@ -2,7 +2,8 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  background: var(--tsuaqua-background-dark2, rgba(75, 75, 75, 1));
+  background: var(--tsuaqua-background-dark2);
+  color: white;
   padding: 30px 20px 20px 20px;
   overflow: hidden;
 }
@@ -52,7 +53,7 @@
   position: relative;
   background: rgba(255, 255, 255, 0.0);
   justify-content: end;
-  border-bottom: 3px solid var(--tsuaqua-brand-color-primary, rgba(150, 150, 150, 1));
+  border-bottom: 3px solid orange;
   overflow-y: scroll;
 }
 
@@ -170,17 +171,13 @@
   justify-content: end;
 }
 
-.fa-chevron-circle-up, .fa-chevron-circle-down, .fa-trash  {
-  cursor: pointer;
-}
-
 @media only screen and (max-width: 991px) {
   .shopping-cart-modal-inner {
     display: block;
     position: fixed;
     width: 60vw;
     height: 100vh;
-    background: var(--tsuaqua-background-dark2, rgba(75, 75, 75, 1));
+    background: var(--tsuaqua-background-dark2);
     padding: 30px 20px 20px 20px;
   }
 
@@ -255,7 +252,7 @@
     position: fixed;
     width: 80vw;
     height: 100vh;
-    background: var(--tsuaqua-background-dark2, rgba(75, 75, 75, 1));
+    background: var(--tsuaqua-background-dark2);
     padding: 30px 20px 20px 20px;
   }
 
