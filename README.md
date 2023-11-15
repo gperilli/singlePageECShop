@@ -1,6 +1,13 @@
 # templates-ecshop1
 
-This is a HTML single page ecommerce frontend template and mockup. Items selected for purchase will appear in the shopping basket which will slide in form the right when opened. The total price of multiple items is calculated, but there is no connection to a server side payment processor (such as Stripe).
+|   |   |
+|---|---|
+| <img src="assets/img/template.png" width="80%" />   | <img src="assets/img/mockup.png" width="80%" />   |
+
+
+This is a HTML single page ecommerce frontend template and mockup. Items selected for purchase will appear in the shopping basket which will slide in form the right when opened. The total price of multiple items is calculated and displayed, but there is no connection to a server-side payment processor (such as Stripe). The original deisgn came from [https://imransdesign.com/](https://imransdesign.com/). I have removed Bootstrap from the source, created a shopping cart and responsive nav bar and reduced everything down to a single page template and mockup. 
+
+
 
 ## Built With
 - [Vanilla JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - vanilla Javascript
