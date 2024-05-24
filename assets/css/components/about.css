@@ -43,8 +43,8 @@ a.video-play-btn {
     opacity: 0.3;
   }
 
-  .abt-bg-mockup {
-    background-image: url(../../img/about-image-mockup.jpg);
+  .abt-bg-demo {
+    background-image: url(../../img/about-image-demo.jpg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -56,7 +56,7 @@ a.video-play-btn {
     overflow: hidden;
   }
 
-  .abt-bg-mockup:after {
+  .abt-bg-demo:after {
     position: absolute;
     left: 0;
     top: 0;
