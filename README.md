@@ -1,4 +1,4 @@
-# templates-ecshop1
+# Single Page EC Shop
 
 |   |   |
 |---|---|
