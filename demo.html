@@ -1,420 +1,536 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="A single page ecommerce page demo.">
-	<!-- title -->
-	<title>Tsu Aquatics</title>
-	<!-- favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons-demo/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons-demo/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons-demo/favicon-16x16.png">
-  <link rel="manifest" href="assets/img/favicons-demo/site.webmanifest">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-	<!-- google font -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-	<!-- fontawesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- main style -->
-	<link rel="stylesheet" href="assets/css/main-demo.css">
-	<!-- responsive -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
-</head>
-<body id="body">
-
-	<!--PreLoader-->
-  <div class="loader">
-    <div class="loader-inner">
-      <div class="circle"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A single page ecommerce page demo." />
+    <!-- title -->
+    <title>Tsu Aquatics</title>
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicons-demo/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicons-demo/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicons-demo/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/img/favicons-demo/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- main style -->
+    <link rel="stylesheet" href="assets/css/main-demo.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body id="body">
+    <!--PreLoader-->
+    <div class="loader">
+      <div class="loader-inner">
+        <div class="circle"></div>
+      </div>
     </div>
-  </div>
-  <!--PreLoader Ends-->
+    <!--PreLoader Ends-->
 
-  <div id="sliding-container">
+    <div id="sliding-container">
+      <!-- header / left-side bar start -->
+      <div class="top-and-left-nav-bar">
+        <div class="container">
+          <!-- nav menu start -->
+          <nav class="nav">
+            <ul class="nav--menu">
+              <!-- nav logo -->
+              <li>
+                <div class="site-logo nav-site-logo">
+                  <a href="index.html">
+                    <img src="assets/img/tsuaqua-titlelogo3.png" alt="" />
+                  </a>
+                </div>
+              </li>
+              <!-- end logo -->
 
-    <!-- header / left-side bar start -->
-    <div class="top-and-left-nav-bar">
-      <div class="container">
+              <li class="nav--item">
+                <a class="nav--link" href="#home">Home</a>
+              </li>
+              <li class="nav--item">
+                <a class="nav--link" href="#about">About</a>
+              </li>
+              <li class="nav--item">
+                <a class="nav--link" href="#product-group-one"
+                  >Neocaridina Shrimp</a
+                >
+              </li>
+              <li class="nav--item">
+                <a class="nav--link" href="#product-group-two"
+                  >Aquatic Plants</a
+                >
+              </li>
+              <li class="nav--item" id="shopping-cart-button">
+                <button>
+                  <span class="shopping-cart"
+                    ><i class="fa fa-shopping-cart"></i
+                  ></span>
+                </button>
+              </li>
+            </ul>
+          </nav>
+          <!-- nav menu end -->
+        </div>
+      </div>
+      <!-- header / left-side bar end -->
 
-        <!-- nav menu start -->
-        <nav class="nav">
-          <ul class="nav--menu">
+      <!-- central column start -->
+      <div class="page-column">
+        <!-- mobile screen header start -->
+        <div class="page-column-mobile-header">
+          <div class="container">
+            <div class="mobile-header-container">
+              <div class="mobile-header-left-side">
+                <!-- Hamburger -->
+                <div class="hamburger">
+                  <div>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                  </div>
+                </div>
 
-            <!-- nav logo -->
-            <li>
-              <div class="site-logo nav-site-logo">
-                <a href="index.html">
-                  <img src="assets/img/tsuaqua-titlelogo3.png" alt="">
-                </a>
+                <!-- logo -->
+                <div class="site-logo">
+                  <a href="index.html">
+                    <img src="assets/img/tsuaqua-titlelogo.png" alt="" />
+                  </a>
+                </div>
+                <!-- logo -->
               </div>
-            </li>
-            <!-- end logo -->
 
-            <li class="nav--item"><a class="nav--link" href="#home">Home</a></li>
-            <li class="nav--item"><a class="nav--link" href="#about">About</a></li>
-            <li class="nav--item"><a class="nav--link" href="#product-group-one">Neocaridina Shrimp</a></li>
-            <li class="nav--item"><a class="nav--link" href="#product-group-two">Aquatic Plants</a></li>
-            <li class="nav--item" id="shopping-cart-button">
-              <button>
-                <span class="shopping-cart"><i class="fa fa-shopping-cart"></i></span>
+              <!-- shopping cart button start -->
+              <button class="shopping-cart-button">
+                <span class="shopping-cart"
+                  ><i class="fa fa-shopping-cart"></i
+                ></span>
               </button>
-            </li>
-          </ul>
-        </nav>
-        <!-- nav menu end -->
+              <!-- shopping cart button end -->
+            </div>
+          </div>
+        </div>
+        <!-- mobile screen header end -->
+
+        <!-- hero area -->
+        <div class="hero-area hero-bg-demo" id="home">
+          <div class="container">
+            <div class="row d-flex flex-row justify-content-center">
+              <div class="col-lg-9 text-center">
+                <div class="hero-text">
+                  <div class="hero-text-tablecell">
+                    <p class="subtitle">Tsu Aquatics</p>
+                    <h1>Aquatic Plants and Neocaridina Shrimps</h1>
+                    <div class="hero-btns">
+                      <a href="#product-group-one" class="nav--link boxed-btn"
+                        >Aquatic Plants</a
+                      >
+                      <a
+                        href="#product-group-two"
+                        class="nav--link bordered-btn"
+                        >Neocaridina Shrimps</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end hero area -->
+
+        <!-- services list section -->
+        <div class="list-section pt-80 pb-80 mb-150">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <div class="list-box d-flex align-items-start">
+                  <div class="list-icon">
+                    <i class="fas fa fa-truck"></i>
+                  </div>
+                  <div class="content">
+                    <h3>Shipping to Japan and East Asia</h3>
+                    <p>Please see the delivery fees during checkout</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <div class="list-box d-flex align-items-start">
+                  <div class="list-icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <div class="content">
+                    <h3>24/7 Support</h3>
+                    <p>Support and updates on despatch and delivery</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div
+                  class="list-box d-flex justify-content-start align-items-start"
+                >
+                  <div class="list-icon">
+                    <i class="fa fa-money"></i>
+                  </div>
+                  <div class="content">
+                    <h3>Refunds Upon Request</h3>
+                    <p>Get refund within 24 hours after delivery!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end services list section -->
+
+        <!-- product section 1 -->
+        <div class="product-section mt-150 mb-150" id="product-group-one">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 text-left">
+                <div class="section-title">
+                  <h3><span class="orange-text">Aquatic</span> Plants</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid, fuga quas itaque eveniet beatae optio.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-items-container">
+              <div>
+                <div class="single-product-item">
+                  <div class="product-image">
+                    <div
+                      class="product-image"
+                      style="
+                        background-image: url('assets/img/products/product-img-1b.jpg');
+                      "
+                    ></div>
+                  </div>
+                  <div class="product-text-container">
+                    <h3>eleocharis parvula</h3>
+                    <div>
+                      <p class="product-price">$10 <span>Per unit</span></p>
+                      <button
+                        class="cart-btn"
+                        data-product="eleocharis parvula"
+                        data-price="10"
+                        data-image="assets/img/products/product-img-1b.jpg"
+                      >
+                        <i class="fa fa-shopping-cart"></i> Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="single-product-item">
+                  <div
+                    class="product-image"
+                    style="
+                      background-image: url('assets/img/products/product-img-2b.jpg');
+                    "
+                  ></div>
+                  <div class="product-text-container">
+                    <h3>amazon frogbit</h3>
+                    <div>
+                      <p class="product-price">$2 <span>Per bag</span></p>
+                      <button
+                        class="cart-btn"
+                        data-product="amazon frogbit"
+                        data-price="2"
+                        data-image="assets/img/products/product-img-2b.jpg"
+                      >
+                        <i class="fa fa-shopping-cart"></i> Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="single-product-item">
+                  <div
+                    class="product-image"
+                    style="
+                      background-image: url('assets/img/products/product-img-3b.jpg');
+                    "
+                  ></div>
+                  <div class="product-text-container">
+                    <h3>Anubias Nana Petite</h3>
+                    <div>
+                      <p class="product-price">$20 <span>for 3</span></p>
+                      <button
+                        class="cart-btn"
+                        data-product="Anubias Nana Petite"
+                        data-price="20"
+                        data-image="assets/img/products/product-img-3b.jpg"
+                      >
+                        <i class="fa fa-shopping-cart"></i> Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end product section -->
+
+        <!-- product section 2 -->
+        <div class="product-section mt-150 mb-150" id="product-group-two">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 text-left">
+                <div class="section-title">
+                  <h3><span class="orange-text">Neocardina</span> Shrimps</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aliquid, fuga quas itaque eveniet beatae optio.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-items-container">
+              <div>
+                <div class="single-product-item">
+                  <div
+                    class="product-image"
+                    style="
+                      background-image: url('assets/img/products/product-img-4b.jpg');
+                    "
+                  ></div>
+                  <div class="product-text-container">
+                    <h3>Neocaridina Red</h3>
+                    <div>
+                      <p class="product-price">$10 <span>Per unit</span></p>
+                      <button
+                        class="cart-btn"
+                        data-product="Neocaridina Red"
+                        data-price="10"
+                        data-image="assets/img/products/product-img-4b.jpg"
+                      >
+                        <i class="fa fa-shopping-cart"></i> Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="single-product-item">
+                  <div
+                    class="product-image"
+                    style="
+                      background-image: url('assets/img/products/product-img-5b.jpg');
+                    "
+                  ></div>
+                  <div class="product-text-container">
+                    <h3>Neocaridina Blue</h3>
+                    <div>
+                      <p class="product-price">$10 <span>per bag</span></p>
+                      <button
+                        class="cart-btn"
+                        data-product="Neocaridina Blue"
+                        data-price="10"
+                        data-image="assets/img/products/product-img-5b.jpg"
+                      >
+                        <i class="fa fa-shopping-cart"></i> Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="single-product-item">
+                  <div
+                    class="product-image"
+                    style="
+                      background-image: url('assets/img/products/product-img-6b.jpg');
+                    "
+                  ></div>
+                  <div class="product-text-container">
+                    <h3>Amano</h3>
+                    <div>
+                      <p class="product-price">$5 <span>for 3</span></p>
+                      <button
+                        class="cart-btn"
+                        data-product="Amano"
+                        data-price="5"
+                        data-image="assets/img/products/product-img-6b.jpg"
+                      >
+                        <i class="fa fa-shopping-cart"></i> Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end product section -->
+
+        <!-- Youtube Community section -->
+        <div class="abt-section mb-150" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="abt-bg-demo">
+                  <a
+                    href="https://www.youtube.com/watch?v=DBLlFWYcIGQ"
+                    class="video-play-btn popup-youtube"
+                    ><i class="fa fa-play"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="abt-text">
+                  <p class="top-sub">Since 2023</p>
+                  <h2>About <span class="orange-text">Tsu Aqautics</span></h2>
+                  <p>
+                    Etiam vulputate ut augue vel sodales. In sollicitudin neque
+                    et massa porttitor vestibulum ac vel nisi. Vestibulum
+                    placerat eget dolor sit amet posuere. In ut dolor aliquet,
+                    aliquet sapien sed, interdum velit. Nam eu molestie lorem.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sapiente facilis illo repellat veritatis minus, et labore
+                    minima mollitia qui ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end Youtube Community section -->
+
+        <!-- footer -->
+        <div class="footer-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-box about-widget">
+                  <h2 class="widget-title">About us</h2>
+                  <p>
+                    Ut enim ad minim veniam perspiciatis unde omnis iste natus
+                    error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-box get-in-touch">
+                  <h2 class="widget-title">Get in Touch</h2>
+                  <ul>
+                    <li>
+                      ShaMezon Felice 101, Asakura Yokomachi 17-14-1, Kochi-shi.
+                    </li>
+                    <li>support@ourshop.com</li>
+                    <li>+00 111 222 3333</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end footer -->
+
+        <!-- copyright start -->
+        <div class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <p>
+                  &copy; 2023 -
+                  <a href="https://gperilli.dev/">Gareth Perilli</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end copyright -->
+      </div>
+      <!-- central column end -->
+
+      <div class="shopping-cart-modal">
+        <div class="shopping-cart-modal-inner">
+          <!-- modal x -->
+          <div class="shopping-cart-top-x">
+            <span class="shopping-cart-top-x-icon"
+              ><i class="fa fa-close orange-text"></i
+            ></span>
+          </div>
+          <div class="shopping-cart-container">
+            <div class="section-title">
+              <h3><span class="orange-text">Shopping Cart</span></h3>
+            </div>
+            <p class="shopping-cart-advice white-text">
+              Manage your cart here. Click the proceed button to complete the
+              payment using Stripe.
+            </p>
+
+            <!-- checkout items -->
+            <div class="checkout-items">
+              <!-- items inserted here -->
+            </div>
+
+            <div class="cart-total-container">
+              <h3>
+                <span class="white-text">Total:</span>
+                <span class="orange-text" id="checkout-total">$0.00</span>
+              </h3>
+            </div>
+
+            <div class="checkout-proceed-button-container">
+              <button class="cart-btn">
+                <i class="fas fa-credit-card"></i> Proceed
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- header / left-side bar end -->
 
-    <!-- central column start -->
-    <div class="page-column">
-
-      <!-- mobile screen header start -->
-      <div class="page-column-mobile-header">
-        <div class="container">
-          <div class="mobile-header-container">
-            <div class="mobile-header-left-side">
-              <!-- Hamburger -->
-              <div class="hamburger">
-                <div>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                </div>
-              </div>
-
-              <!-- logo -->
-              <div class="site-logo">
-                <a href="index.html">
-                  <img src="assets/img/tsuaqua-titlelogo.png" alt="">
-                </a>
-              </div>
-              <!-- logo -->
-            </div>
-
-            <!-- shopping cart button start -->
-            <button class="shopping-cart-button">
-              <span class="shopping-cart"><i class="fa fa-shopping-cart"></i></span>
-            </button>
-            <!-- shopping cart button end -->
-          </div>
-
-        </div>
-      </div>
-      <!-- mobile screen header end -->
-
-      <!-- hero area -->
-      <div class="hero-area hero-bg-demo" id="home">
-        <div class="container">
-          <div class="row d-flex flex-row justify-content-center">
-            <div class="col-lg-9 text-center">
-              <div class="hero-text ">
-                <div class="hero-text-tablecell">
-                  <p class="subtitle">Tsu Aquatics</p>
-                  <h1>Aquatic Plants and Neocaridina Shrimps</h1>
-                  <div class="hero-btns">
-                    <a href="#product-group-one" class="nav--link boxed-btn">Aquatic Plants</a>
-                    <a href="#product-group-two" class="nav--link bordered-btn">Neocaridina Shrimps</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end hero area -->
-
-      <!-- services list section -->
-      <div class="list-section pt-80 pb-80 mb-150">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-              <div class="list-box d-flex align-items-start">
-                <div class="list-icon">
-                  <i class="fas fa fa-truck"></i>
-                </div>
-                <div class="content">
-                  <h3>Shipping to Japan and East Asia</h3>
-                  <p>Please see the delivery fees during checkout</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-              <div class="list-box d-flex align-items-start">
-                <div class="list-icon">
-                  <i class="fa fa-phone"></i>
-                </div>
-                <div class="content">
-                  <h3>24/7 Support</h3>
-                  <p>Support and updates on despatch and delivery</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="list-box d-flex justify-content-start align-items-start">
-                <div class="list-icon">
-                  <i class="fa fa-money"></i>
-                </div>
-                <div class="content">
-                  <h3>Refunds Upon Request</h3>
-                  <p>Get refund within 24 hours after delivery!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end services list section -->
-
-      <!-- product section 1 -->
-      <div class="product-section mt-150 mb-150" id="product-group-one">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 text-left">
-              <div class="section-title">
-                <h3><span class="orange-text">Aquatic</span> Plants</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-items-container">
-            <div>
-              <div class="single-product-item">
-                <div class="product-image">
-                  <div class="product-image" style="background-image: url('assets/img/products/product-img-1b.jpg');">
-                  </div>
-                </div>
-                <div class="product-text-container">
-                  <h3>eleocharis parvula</h3>
-                  <div>
-                    <p class="product-price">$10 <span>Per unit</span></p>
-                    <button class="cart-btn"
-                      data-product="eleocharis parvula"
-                      data-price="10"
-                      data-image="assets/img/products/product-img-1b.jpg">
-                        <i class="fa fa-shopping-cart"></i> Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div class="single-product-item">
-                <div class="product-image" style="background-image: url('assets/img/products/product-img-2b.jpg');">
-                </div>
-                <div class="product-text-container">
-                  <h3>amazon frogbit</h3>
-                  <div>
-                    <p class="product-price">$2 <span>Per bag</span></p>
-                    <button class="cart-btn"
-                      data-product="amazon frogbit"
-                      data-price="2"
-                      data-image="assets/img/products/product-img-2b.jpg">
-                        <i class="fa fa-shopping-cart"></i> Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <div class="single-product-item">
-                <div class="product-image" style="background-image: url('assets/img/products/product-img-3b.jpg');">
-                </div>
-                <div class="product-text-container">
-                  <h3>Anubias Nana Petite</h3>
-                  <div>
-                    <p class="product-price">$20 <span>for 3</span></p>
-                    <button class="cart-btn"
-                      data-product="Anubias Nana Petite"
-                      data-price="20"
-                      data-image="assets/img/products/product-img-3b.jpg">
-                        <i class="fa fa-shopping-cart"></i> Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end product section -->
-
-      <!-- product section 2 -->
-      <div class="product-section mt-150 mb-150" id="product-group-two">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 text-left">
-              <div class="section-title">
-                <h3><span class="orange-text">Neocardina</span> Shrimps</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-items-container">
-            <div>
-              <div class="single-product-item">
-                <div class="product-image" style="background-image: url('assets/img/products/product-img-4b.jpg');">
-                </div>
-                <div class="product-text-container">
-                  <h3>Neocaridina Red</h3>
-                  <div>
-                    <p class="product-price">$10 <span>Per unit</span></p>
-                    <button class="cart-btn"
-                      data-product="Neocaridina Red"
-                      data-price="10"
-                      data-image="assets/img/products/product-img-4b.jpg">
-                        <i class="fa fa-shopping-cart"></i> Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="single-product-item">
-                <div class="product-image" style="background-image: url('assets/img/products/product-img-5b.jpg');">
-                </div>
-                <div class="product-text-container">
-                  <h3>Neocaridina Blue</h3>
-                  <div>
-                    <p class="product-price">$10 <span>per bag</span></p>
-                    <button class="cart-btn"
-                      data-product="Neocaridina Blue"
-                      data-price="10"
-                      data-image="assets/img/products/product-img-5b.jpg">
-                        <i class="fa fa-shopping-cart"></i> Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="single-product-item">
-                <div class="product-image" style="background-image: url('assets/img/products/product-img-6b.jpg');">
-                </div>
-                <div class="product-text-container">
-                  <h3>Amano</h3>
-                  <div>
-                    <p class="product-price">$5 <span>for 3</span></p>
-                    <button class="cart-btn"
-                      data-product="Amano"
-                      data-price="5"
-                      data-image="assets/img/products/product-img-6b.jpg">
-                        <i class="fa fa-shopping-cart"></i> Add to Cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end product section -->
-
-      <!-- Youtube Community section -->
-      <div class="abt-section mb-150" id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <div class="abt-bg-demo">
-                <a href="https://www.youtube.com/watch?v=DBLlFWYcIGQ" class="video-play-btn popup-youtube"><i class="fa fa-play"></i></a>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12">
-              <div class="abt-text">
-                <p class="top-sub">Since 2023</p>
-                <h2>About <span class="orange-text">Tsu Aqautics</span></h2>
-                <p>Etiam vulputate ut augue vel sodales. In sollicitudin neque et massa porttitor vestibulum ac vel nisi. Vestibulum placerat eget dolor sit amet posuere. In ut dolor aliquet, aliquet sapien sed, interdum velit. Nam eu molestie lorem.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis illo repellat veritatis minus, et labore minima mollitia qui ducimus.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- end Youtube Community section -->
-
-      <!-- footer -->
-      <div class="footer-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="footer-box about-widget">
-                <h2 class="widget-title">About us</h2>
-                <p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="footer-box get-in-touch">
-                <h2 class="widget-title">Get in Touch</h2>
-                <ul>
-                  <li>ShaMezon Felice 101, Asakura Yokomachi 17-14-1, Kochi-shi.</li>
-                  <li>support@ourshop.com</li>
-                  <li>+00 111 222 3333</li>
-                </ul>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <!-- end footer -->
-
-      <!-- copyright start -->
-      <div class="copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <p>&copy; 2023 - <a href="https://gperilli.dev/">Gareth Perilli</a></p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <!-- end copyright -->
-
-    </div>
-    <!-- central column end -->
-
-    <div class="shopping-cart-modal">
-      <div class="shopping-cart-modal-inner">
-        <!-- modal x -->
-        <div class="shopping-cart-top-x">
-          <span class="shopping-cart-top-x-icon"><i class="fa fa-close orange-text"></i></span>
-        </div>
-        <div class="shopping-cart-container">
-          <div class="section-title">
-            <h3><span class="orange-text">Shopping Cart</span></h3>
-          </div>
-          <p class="shopping-cart-advice white-text">Manage your cart here. Click the proceed button to complete the payment using Stripe.</p>
-
-          <!-- checkout items -->
-          <div class="checkout-items">
-            <!-- items inserted here -->
-          </div>
-
-          <div class="cart-total-container">
-            <h3><span class="white-text">Total:</span> <span class="orange-text" id="checkout-total">$0.00</span></h3>
-          </div>
-
-          <div class="checkout-proceed-button-container">
-            <button class="cart-btn"><i class="fas fa-credit-card"></i> Proceed</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-	<!-- main js -->
-	<script src="assets/js/main.js"></script>
-
-</body>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
