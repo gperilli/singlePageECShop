@@ -301,6 +301,20 @@ a.nav--link {
   text-decoration: none;
 }
 
+.shopping-cart-button {
+    position: relative;
+    background: transparent;
+    border: none;
+    color: #fff;
+  }
+
+  .shopping-cart-button,
+.shopping-cart-button:focus,
+.shopping-cart-button:active {
+  border: none !important;
+  outline: none !important;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	nav.main-menu {
     display: none;
@@ -482,12 +496,7 @@ a.nav--link {
 
 
 
-  .shopping-cart-button {
-    position: relative;
-    background: transparent;
-    border: none;
-    color: #fff;
-  }
+  
 
 }
 
