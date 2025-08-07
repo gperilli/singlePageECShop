@@ -92,8 +92,8 @@ html, body {
   margin-top: 35px;
 }
 
-.hero-btns a.bordered-btn {
-  margin-left: 15px;
+.hero-btns a {
+  margin-bottom: 15px;
 }
 
 .hero-area div.hero-form {
